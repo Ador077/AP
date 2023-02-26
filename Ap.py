@@ -381,6 +381,7 @@ def a(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
+		logo=("""\033[92;1m
                 print(f'\r\33[1;91m [𝐅𝐈𝐑𝐄-𝗢𝗞]╔════════════════════════════════════════╗
                 print(f'\r\33[1;91m║  '+cid+' | '+ps+'\33[0;92m')                                        print(f'\r\33[1;91m║
                 print(f'\r\33[1;91m║                                        ║ 
@@ -452,6 +453,7 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
+		logo=("""\033[92;1m
                 print(f'\r\33[1;91m [𝐅𝐈𝐑𝐄-𝗢𝗞]╔════════════════════════════════════════╗
                 print(f'\r\33[1;91m║  '+cid+' | '+ps+'\33[0;92m')                                        print(f'\r\33[1;91m║
                 print(f'\r\33[1;91m║                                        ║ 
@@ -511,6 +513,7 @@ def c(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
+	        logo=("""\033[92;1m
                 print(f'\r\33[1;91m [𝐅𝐈𝐑𝐄-𝗢𝗞]╔════════════════════════════════════════╗
                 print(f'\r\33[1;91m║  '+cid+' | '+ps+'\33[0;92m')                                        print(f'\r\33[1;91m║
                 print(f'\r\33[1;91m║                                        ║ 
